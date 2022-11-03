@@ -21,8 +21,9 @@ How to install Home Assistant Supervised on Le Potato (Libre Computer AML-S905X-
 
 5. Home Assistant Supervised isntallation
 - Follow this instruction: https://prog.world/installing-home-assistant-supervised-on-ubuntu-22-04-lts/
-- wget github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_aarch64.deb
-- sudo dpkg -i os-agent_1.2.2_linux_aarch64.deb
+- Check for newest agent: https://github.com/home-assistant/os-agent/releases/
+- wget github.com/home-assistant/os-agent/releases/download/1.4.1/os-agent_1.4.1_linux_aarch64.deb
+- sudo dpkg -i os-agent_1.4.1_linux_aarch64.deb
 - wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
 - touch /etc/default/grub
 - Add: "systemd.unified_cgroup_hierarchy=false" into grub
