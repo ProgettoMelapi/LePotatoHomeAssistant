@@ -4,9 +4,11 @@ How to install Home Assistant Supervised on Le Potato (Libre Computer AML-S905X-
 - SD-card boot image from LibreComputer: https://github.com/libre-computer-project/libretech-flash-tool
 - Not necessary, but enables SSD
 
+
 2. Image: Ubuntu server 22.04 LTS (for Potato, use aml-s905x-cc) (https://distro.libre.computer/ci/ubuntu/22.04/)
 - Unzip: tar -xf
 - Flash USB stick or SSD: I used balenaEtcher to flash USB stick
+
 
 3. OS installation
 - Username and pw: ubuntu
@@ -16,8 +18,10 @@ How to install Home Assistant Supervised on Le Potato (Libre Computer AML-S905X-
 - sudo apt install jq ca-certificates curl gnupg lsb-release
 - sudo apt --fix-broken install (if some dependencies is missing)
 
+
 4. Docker installation
 - For Docker install, follow their instructions: docs.docker.com/engine/install/ubuntu/
+
 
 5. Home Assistant Supervised isntallation
 - Follow this instruction: https://prog.world/installing-home-assistant-supervised-on-ubuntu-22-04-lts/
