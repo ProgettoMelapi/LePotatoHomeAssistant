@@ -12,7 +12,7 @@ How to install Home Assistant Supervised on Le Potato (Libre Computer AML-S905X-
 - Username and pw: ubuntu
 - sudo apt update && sudo apt upgrade (+reboot)
 - sudo apt install network-manager
-- sudo systemctl enable network-manager
+- sudo systemctl enable NetworkManager
 - sudo apt install jq ca-certificates curl gnupg lsb-release
 - sudo apt --fix-broken install (some dependencies will be missing)
 
